@@ -1,0 +1,1298 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* MOST USED PROPERTY */
+
+.primary-btn {
+    display: flex;
+    align-items: center;
+    gap: 29.33px;
+    padding: 12.14px 24.27px;
+    border-radius: 505.64px;
+    background: linear-gradient(to right, #CAA648, #CAA648, #D5B147, #E4C267, #E2C065, #DBB95E, #D0AE52, #C09F41, #BB9A3C);
+}
+
+.primary-btn button {
+    border: none;
+    background: none;
+    font-size: 18.2px;
+    font-family: "New Rail Alphabet Light";
+    line-height: 16.18px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.background-gradient {
+    background: linear-gradient(180deg, rgba(243, 243, 243, 0.75), rgba(184, 184, 184, 0.8), rgba(243, 243, 243, 0.251));
+}
+
+.top-section {
+    width: 100%;
+}
+
+.top-section .top-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 4.05px;
+    border-bottom-left-radius: 4.05px;
+    background-color: #322D2D;
+}
+
+.top-btn button {
+    padding: 16.18px 16.18px 16.18px 12.14px;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 14.16px;
+    font-family: "New Rail Alphabet White";
+    line-height: 16.18px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 64.72px;
+    height: 72.81px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 32.36px;
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 16.18px;
+    color: #322D2D;
+}
+
+ul li:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 4.05px;
+}
+
+nav .nav-search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.section {
+    margin-inline: 64.72px;
+}
+
+.home-page {
+    width: 1328px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 70px;
+}
+
+.text-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rating-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: max-content;
+    border-radius: 10000px;
+    padding: 5px 16px 5px 8px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(252, 252, 252, 0.2));
+    font-family: "New Rail Alphabet Light";
+    font-size: 16px;
+    font-weight: 300;
+    color: #322D2D;
+}
+
+.rating-item p {
+    line-height: 100%;
+}
+
+.rating-item button {
+    border: none;
+    background: none;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+    font-family: "New Rail Alphabet Light";
+    font-size: 16px;
+    font-weight: 300;
+    color: #322D2D;
+}
+
+.left-heading h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 56px;
+    letter-spacing: -1.33px;
+    line-height: 112.00000000000001%;
+    color: #322D2D;
+}
+
+.num-desc-list {
+    display: flex;
+    gap: 60px;
+}
+
+.num-desc h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 72px;
+    background: linear-gradient(90deg, #CAA648, #CAA648, #D5B147, #E4C267, #E2C065, #DBB95E, #D0AE52, #C09F41, #BB9A3C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 100%;
+
+}
+
+.num-desc h1:last-child {
+    line-height: 128%;
+}
+
+.num-desc .mg {
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 128%;
+}
+
+.num-desc h2 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 22px;
+    color: #322D2D;
+    line-height: 104%;
+}
+
+.shop-btn {
+    width: max-content;
+    padding: 16px 28px;
+}
+
+.middle-text {
+    height: 81px;
+    width: 912px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #D5B147;
+    border-radius: 16px;
+    margin-top: 80px;
+}
+
+.middle-text h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: -2.02px;
+    color: #322D2D;
+    line-height: 100%;
+}
+
+.ingredient-div {
+    width: 1328px;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.right-text {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.right-text h2 {
+    font-family: "New Rail Alphabet Light";
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 3.03px;
+    background: linear-gradient(to right, #9E6718, #FFB545);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 100%;
+}
+
+.right-text h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 36px;
+    color: #322D2D;
+}
+
+.right-text h3 {
+    font-family: "New Rail Alphabet Light";
+    font-weight: 300;
+    font-size: 21px;
+    color: #322D2D;
+}
+
+.right-text h3 span {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.right-text .view-btn {
+    width: max-content;
+    gap: 62.7px;
+}
+
+.view-btn button {
+    font-size: 20px;
+}
+
+.marquee {
+    width: 1328px;
+    height: 114.28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14.16px;
+    background-color: #F9F9F9;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.marquee .text-head h3 {
+    font-family: "New Rail Alphabet Light";
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #9E6718, #FFB545);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.marquee .text-list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.text-list .list-item {
+    display: flex;
+    align-items: center;
+    gap: 16.28px;
+}
+
+.text-list .list-item:nth-child(3) {
+    padding-right: 25px;
+}
+
+.list-item .text-item {
+    display: flex;
+    flex-direction: column;
+    gap: 7.66px;
+}
+
+.list-item .text-item h2 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22.99px;
+    color: #322D2D;
+}
+
+.list-item .text-item h3 {
+    font-family: "New Rail Alphabet Light";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19.16px;
+    color: #666666;
+}
+
+.product-details {
+    width: 1328px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
+}
+
+.product-details .advertise {
+    width: 1254px;
+    height: 41.46px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advertise .heading h3 {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 24.27px;
+    line-height: 140%;
+    color: #322D2D;
+}
+
+.advertise .news-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67.76px;
+}
+
+.product-details .elements {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elements .left-side-element {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-side-element .product-info {
+    width: 100%;
+}
+
+.product-info .product-img {
+    width: 100%;
+    height: 673px;
+    background-image: url("assets/ingredient-img.png");
+    background-size: cover;
+    position: relative;
+}
+
+.product-img .sliding {
+    width: 551.21px;
+    height: 38.9px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+}
+
+.sliding button {
+    background: none;
+    height: 38.9px;
+    width: 38.9px;
+    border-radius: 40.52px;
+    border: 0.81px solid #322D2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliding .dots {
+    display: flex;
+    align-items: center;
+    gap: 8.09px;
+}
+
+.sliding .dots .dot {
+    height: 8.09px;
+    width: 8.09px;
+    border-radius: 50%;
+    border: 1.01px solid #322D2D;
+}
+
+.sliding .dots .dot:first-child {
+    background-color: #322D2D;
+}
+
+.elements .right-side-element {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.right-side-element .product-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.product-desc .about-elements {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-elements h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    line-height: 100%;
+    font-size: 36px;
+    color: #322D2D;
+}
+
+.about-elements .public-rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.public-rating span {
+    font-family: "New Rail Alphabet Light";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    color: #322D2D;
+}
+
+.about-elements p {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 16.18px;
+    color: #322D2D;
+}
+
+.flavor {
+    width: 478.12px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.flavor h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 24px;
+    color: #322D2D;
+    line-height: 20.23px;
+}
+
+.flavor .flavor-variety {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flavor-variety .flavor-pack {
+    width: 150.22px;
+    height: 178.85px;
+    background-color: #F9F9F9;
+    border-radius: 6.07px;
+    border: 1.01px solid #FFFFFF;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flavor-pack {
+    background-image: url("assets/original.png");
+    position: relative;
+}
+
+.matcha {
+    background-image: url("assets/matcha.png");
+}
+
+.cacao {
+    background-image: url("assets/cacao.png");
+}
+
+.original button {
+    padding: 6.84px 6.07px;
+    border: none;
+    border-top-left-radius: 6.07px;
+    border-bottom-right-radius: 6.07px;
+    background: linear-gradient(to right, #A27533, #FAC568);
+    font-family: "New Rail Alphabet White";
+    font-weight: 700;
+    font-size: 10.26px;
+    line-height: 9.12px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.flavor-pack .radio-btn-text {
+    position: absolute;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-btn-text p {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 16px;
+    color: #919798;
+    line-height: 100%;
+}
+
+.original p {
+    background: linear-gradient(to right, #9E6718, #FFB545);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.radio-btn-text .radio-btn {
+    height: 11.8px;
+    width: 11.8px;
+    border: 1.01px solid #919798;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.original-radio-btn {
+    border: 1.01px solid #DEA453;
+}
+
+.radio-btn .inner-radio-btn {
+    height: 6.5px;
+    width: 6.5px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #9E6718, #FFB545);
+}
+
+.cart-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cart-details .about-cart {
+    border: 1.01px solid #B8B8B8;
+    border-radius: 6.07px;
+}
+
+.about-cart .popular {
+    width: 100%;
+    height: 43.49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #A27533, #FAC568);
+}
+
+.popular h2 {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 20.23px;
+    line-height: 24.27px;
+    color: #FFFFFF;
+}
+
+.subscription {
+    width: 100%;
+    height: 56.63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.01px solid #B8B8B8;
+    border-radius: 6.07px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.single-kit {
+    border: none;
+}
+
+.subscription .radio-subsc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscription .price {
+    display: flex;
+    align-items: center;
+    gap: 10.11px;
+}
+
+.radio-subsc .radio {
+    height: 16.23px;
+    width: 17.77px;
+    border-radius: 50%;
+    border: 0.81px solid #DEA453;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription h1,
+h2 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 20.23px;
+    color: #322D2D;
+}
+
+.subscription h2 {
+    color: #919798;
+    text-decoration: line-through;
+}
+
+.radio .inner-radio {
+    width: 10.66px;
+    height: 9.74px;
+    background: linear-gradient(to right, #9E6718, #FFB545);
+    border-radius: 50%;
+}
+
+.about-cart .cart-item-info {
+    width: 524.85px;
+    margin-inline: auto;
+    border-top: 1.01px solid #919798;
+    padding-block: 28px;
+}
+
+.cart-item-info .included h3 {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 16.18px;
+    line-height: 100%;
+    color: #322D2D;
+}
+
+.cart-item-info .item-showing {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+.item-showing .item-1 {
+    height: 219.53px;
+    width: 166.47px;
+}
+
+.item {
+    border: 1.01px solid #919798;
+    border-radius: 6.07px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.item .item-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item h3 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 16.18px;
+    line-height: 100%;
+    color: #6F7577;
+}
+
+.item span {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 16.18px;
+    line-height: 100%;
+    color: #D0AF80;
+}
+
+.item-1 img {
+    width: 84px;
+    height: 145px;
+}
+
+.item-showing .item-2 {
+    width: 327.66px;
+    height: 219.53px;
+}
+
+.item-2 img {
+    width: 233.51px;
+    height: 127.66px
+}
+
+.item-2 {
+    gap: 33px;
+}
+
+.shipping-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.shipping-info .shipping-info-lines {
+    display: flex;
+    align-items: center;
+    gap: 6.07px;
+}
+
+.shipping-info-lines img {
+    height: 9.1px;
+    width: 12.38px;
+}
+
+.shipping-info-lines h3 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 15.16px;
+    line-height: 100%;
+    color: #322D2D;
+}
+
+.shipping-info-lines span {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 15.16px;
+    line-height: 100%;
+    color: #322D2D;
+}
+
+.right-side-element .cart-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #667744;
+    gap: 9px;
+    border-radius: 505.64px;
+    border-bottom: 1.01px;
+    padding: 12.14px 24.27px;
+}
+
+.cart-btn button {
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    font-family: "New Rail Alphabet White";
+    font-weight: 300;
+    font-size: 18.2px;
+    line-height: 16.18px;
+}
+
+.certifications {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certifications .certificate-box {
+    display: flex;
+    align-items: center;
+    gap: 15.17px;
+}
+
+.certificate-box h3 {
+    color: #322D2D;
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.27px;
+}
+
+.himalayan-shilajit {
+    width: 1328px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.himalayan-shilajit .himalayan-img {
+    padding-top: 125px;
+}
+
+.himalayan-shilajit .himalayan-desc {
+    width: 766px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.himalayan-desc .himalayan-heading {
+    width: 271px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.himalayan-desc .himalayan-heading h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 112.00000000000001%;
+    letter-spacing: -1.33px;
+    color: #322D2D;
+}
+
+.himalayan-desc .himalayan-heading h4 {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 3.03px;
+    color: #322D2D;
+}
+
+.himalayan-desc .himalayan-card-box {
+    width: 100%;
+    height: 412px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 22px;
+    column-gap: 32px;
+}
+
+.himalayan-card-box .himalayan-card {
+    background-color: #FAFAF8;
+    padding: 20px 24px;
+    border-radius: 17px;
+    box-shadow: 0 4px 4px 0 #00000040;
+}
+
+.himalayan-card .card-details {
+    width: 319px;
+    height: max-content;
+    display: flex;
+    gap: 19px;
+}
+
+.card-details .card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.card-text h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.27px;
+    color: #666666;
+}
+
+.card-text h1:first-child {
+    width: 217px;
+}
+
+.card-text h3 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 16.18px;
+    line-height: 20.23px;
+    color: #666666;
+}
+
+.shilajit-btn {
+    background: #E2C065;
+    border-bottom: 1.01px;
+    width: max-content;
+}
+
+.subscribe {
+    width: 1328px;
+    height: 489.55px;
+    background-image: url("assets/subscribe-bg.png");
+    background-size: cover;
+    margin-top: 90px;
+    border-radius: 15.71px;
+    position: relative;
+}
+
+.subscribe .subscribe-details {
+    height: 368.13px;
+    width: 553.3px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.subscribe-details p {
+    font-family: "Oxanium", sans-serif;
+    font-weight: 400;
+    font-size: 12.43px;
+    line-height: 100%;
+    letter-spacing: 3.14px;
+    background: linear-gradient(to right, #9E6718, #FFB545);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subscribe-details h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 41.43px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #322D2D;
+    margin-top: 57px;
+}
+
+.subscribe-details span {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 41.43px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #322D2D;
+}
+
+.small-btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 23px;
+}
+
+.small-btn-container .small-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.small-btn-box .small-btn {
+    padding: 8.76px 15.58px;
+    border-radius: 17.31px;
+    background-color: #D6D5D5;
+    gap: 15.58px;
+}
+
+.small-btn h2 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 16.57px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #322D2D;
+}
+
+.subscribe-btn {
+    width: max-content;
+    gap: 64.93px;
+    margin-top: 63px;
+}
+
+.people-using {
+    width: 1328px;
+    height: 711.95px;
+    margin-top: 90px;
+    display: flex;
+    gap: 160px;
+}
+
+.people-using .video {
+    height: 711.95px;
+    width: 625.25px;
+    background-image: url("assets/video-bg.png");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    border-radius: 14.16px;
+}
+
+.video .video-bg {
+    position: absolute;
+    top: 48%;
+    left: 42%;
+    z-index: 2;
+}
+
+.people-using .heading {
+    width: 553.52px;
+}
+
+.main-heading h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 40px;
+    color: #322D2D;
+}
+
+.sub-heading h2 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.27px;
+    color: #666666;
+    padding-top: 15px;
+}
+
+.method-list-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 35px;
+}
+
+.method-list-box .method-list {
+    display: flex;
+    gap: 50px;
+}
+
+.method-list:last-child {
+    padding-top: 30px;
+}
+
+.list-count {
+    width: 45.52px;
+    text-align: center;
+}
+
+.method-list .list-count h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 72.94px;
+    color: #666666;
+    line-height: 94.56px;
+}
+
+.method-list .method-desc {
+    width: 445px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.method-desc h2 {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.27px;
+    background: linear-gradient(to right, #9E6718, #FFB545);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.method-desc h3 {
+    font-family: New Rail Alphabet;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20.23px;
+    letter-spacing: 0px;
+    color: #666666;
+}
+
+.method-btn {
+    gap: 62.7px;
+    width: max-content;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.mashroom-bg {
+    width: 100%;
+    height: 202px;
+    background-image: url("assets/mashroom-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mashroom-bg .percentage-info-box {
+    display: flex;
+    width: 1120px;
+    height: 88px;
+    justify-content: space-between;
+}
+
+.percentage-info-box .percentage-info {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.percentage-info h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.percentage-info h3 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.percentage-info-box .first {
+    width: 203.63px;
+}
+
+.percentage-info-box .second {
+    width: 125.4px;
+}
+
+.percentage-info-box .third {
+    width: 187.09px;
+}
+
+.percentage-info-box .fourth {
+    width: 345.86px;
+}
+
+.founders {
+    width: 1328px;
+    margin-top: 90px;
+}
+
+.founders .video2 {
+    width: 100%;
+    height: 657px;
+    background-image: url("assets/video-bg-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.video2 .video-bg2 {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 48%;
+}
+
+.founders .founder-info {
+    height: 103px;
+    width: 1254px;
+    display: flex;
+    margin-block: 60px;
+}
+
+.founder-info .founder-text {
+    height: 75px;
+    width: 700px;
+}
+
+.founder-text h3 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 20px;
+    color: #322D2D;
+}
+
+.founder-info .founder-heading {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.founder-heading h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 40.45px;
+    line-height: 100%;
+    color: #322D2D;
+}
+
+.founder-heading .about-btn {
+    width: max-content;
+    gap: 62.7px;
+}
+
+.about-btn button {
+    font-family: "Oxanium", sans-serif;
+    font-weight: 300;
+    font-size: 18.2px;
+    line-height: 16.18px;
+}
+
+.faq-container {
+    width: 1330px;
+    margin-top: 90px;
+    display: flex;
+    gap: 80px;
+}
+
+.faq-container .left-faq-box {
+    width: 506px;
+    display: flex;
+    flex-direction: column;
+    gap: 32.36px;
+}
+
+.left-faq-box h1 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 100%;
+    color: #322D2D;
+}
+
+.left-faq-box h2 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.left-faq-box .faq-btn {
+    width: max-content;
+    gap: 62.7px;
+    font-size: 20px;
+}
+
+.right-faq-box {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.right-faq-box .faq-desc {
+    display: flex;
+    padding: 20.23px 24.27px;
+    border-bottom: 1.01px solid #322D2D;
+    justify-content: space-between;
+}
+
+.faq-desc h3 {
+    font-family: "New Rail Alphabet";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+}
